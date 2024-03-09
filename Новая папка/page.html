@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="page.css" />
+  </head>
+  <body>
+    <h2 class="text">https://www.youtube.com/watch?v=bMiZkmqMIK0</h2>
+
+    <label class="switch">
+      <input type="checkbox" />
+      <span class="slider round"></span>
+    </label>
+    <script defer>
+      let text = document.querySelector(".text");
+      let checkbox = document.querySelector(".switch");
+      checkbox.addEventListener("click", () => {
+        text.innerHTML = "text";
+      });
+    </script>
+  </body>
+</html>
